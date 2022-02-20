@@ -1,0 +1,31 @@
+body { background:#ffddee;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify; }
+
+h1, h2, h3, h4, h5 {text-shadow: 3px 2px white; 
+    color: rebeccapurple;
+    text-align: center; }
+
+p { font-family: Georgia, serif; 
+    line-height: 1.8; 
+    font-variant: small-caps; }
+
+
+div.fig { display:block;
+          margin:0 auto;
+          text-align:center; }
+
+figcaption {
+	display: table-caption;
+	caption-side: bottom;
+}
+
+img {
+    opacity: 0.9;
+    border-radius: 5%;
+}
+
+img:hover {
+  opacity: 1.0;
+}

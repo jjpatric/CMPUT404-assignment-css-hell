@@ -22,3 +22,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Part 1 Notes on Changes Made to html files:
+- Removed Everything in style headers
+- Added link to part1.css file
+- Renamed each story's image folder so there was no conflicts
