@@ -21,7 +21,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-Files under homepage is copyright Joshua Patrick (C) 2022  under the CC-BY-SA
+Files under homepage directory is copyright Joshua Patrick (C) 2022 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2022 Joshua Patrick visibile in the text.
 
