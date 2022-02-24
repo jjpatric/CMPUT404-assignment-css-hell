@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Joshua Patrick Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Joshua Patrick">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #086da5;
+            padding: 30px;
+            text-align: center;
+            font-size: 3em;
+        }
+
+        /* Container for flexboxes */
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        /* Style the navigation menu */
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #054c725d;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type:disc;
+            padding: 1;
+            line-height: 2em;
+        }
+
+        /* Style the content */
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #086ea528;
+            padding: 10px;
+            line-height: 1.5em;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #064668;
+            padding: 10px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+
+
+        h2 {
+            color: aliceblue;
+            text-shadow: 0 0 3em rgb(224, 224, 255), 0 0 2em rgb(229, 229, 255), 0 0 0.2em rgb(190, 190, 255);
+        }
+
+        img {
+            box-shadow: 0px 6px 5px #ccc;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2 class="gradient-text">Joshua Patrick</h2>
+    </header>
+
+    <section>
+        <nav>
+            <h3>Things you should know about me</h3>
+            <ul>
+                <li>I live in Calgary, Alberta Canada</li>
+                <li>I lived in the Netherlands for 2 years as a child</li>
+                <li>I like taking things apart</li>
+                <li>I have a dog named Merlin</li>
+                <li>I got married when I was 20</li>
+                <li>I love live music</li>
+                <li>My favorite flavour of ice cream is mint chocolate chip</li>
+            </ul>
+        </nav>
+        <article>
+            <img src="profile.jpg" style="width:20%;" alt="profile picture" />
+
+            <h1>Who am I?</h1>
+            <p>
+                I am a 3rd generation Canadian with ancestors from Ireland, The Netherlands, and The Ukraine.
+                I enjoy leisurely pursuits involving cinematography, photography, and all physical artistic mediums.
+                My ultimate life goal is to have a work-life balance that allows me to feel satisfied at work and free
+                at home.
+            </p>
+            <br>
+
+            <h1>Professional History</h1>
+            <p>General Dynamics Mission Systems - Software Developer Co-op Student (2020-2022)</p>
+            <p>Liberty Security - Security System Installation Technician (2018-2019)</p>
+            <p>Panago Pizza - Delivery Driver (2014-2017)</p>
+            <br>
+
+            <h1>What I have to offer potential employers</h1>
+            <p>I am a team player who enjoys learning new things and using my abilities to improve the lives of people
+                around me.
+                I like to innovate using modern technologies to improve workflow and value streams by improving existing
+                infrastructure.
+                I am not afraid to have difficult conversations to tear down social barriers that are standing in the
+                way of success.
+            </p>
+        </article>
+    </section>
+
+
+    <footer>
+        <p>Copyright 2022 by Joshua Patrick. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

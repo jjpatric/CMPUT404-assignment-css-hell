@@ -21,8 +21,18 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Files under homepage is copyright Joshua Patrick (C) 2022  under the CC-BY-SA
+4.0 unported license. Attribution should be a hyperlink to the
+repository and (C) 2022 Joshua Patrick visibile in the text.
 
 Part 1 Notes on Changes Made to html files:
 - Removed Everything in style headers
 - Added link to part1.css file
 - Renamed each story's image folder so there was no conflicts
+
+
+Part 2 Sources:
+- Rainbow Text: https://w3bits.com/rainbow-text/ by Rahul
+- Text Shadow: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow 
+- CSS Text gradient: https://cssgradient.io/blog/css-gradient-text/ 
+- HTML Layout: https://www.w3schools.com/html/html_layout.asp 
